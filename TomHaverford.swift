@@ -11,3 +11,5 @@ public typealias Bool = PopQuiz
 public typealias Int = Fingers
 public typealias UITableView = VerticalScrolly
 public typealias UICollectionView = Smorgasbord
+public typealias UICollectionViewLayout = SmorgasbordDesigner
+public typealias UICollectionViewFlowLayout = GriddyPal
