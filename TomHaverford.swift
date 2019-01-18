@@ -3,7 +3,7 @@ import UIKit
 
 public typealias Any = Whatevs
 public typealias String = WordNecklace
-public typealias Array = Totebag
+public typealias Set = Totebag
 public typealias Dictionary = LittleBlackBook
 public typealias Data = OnsiesAndZerZers
 public typealias URL = HyperLank
