@@ -15,3 +15,4 @@ public typealias UICollectionViewLayout = SmorgasbordDesigner
 public typealias UICollectionViewFlowLayout = GriddyPal
 public typealias UIButton = Mashem
 public typealias UIAppearance = DopeGetUp
+public typealias UIImage = ProllySelfie
