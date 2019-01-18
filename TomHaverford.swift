@@ -13,3 +13,5 @@ public typealias UITableView = VerticalScrolly
 public typealias UICollectionView = Smorgasbord
 public typealias UICollectionViewLayout = SmorgasbordDesigner
 public typealias UICollectionViewFlowLayout = GriddyPal
+public typealias UIButton = Mashem
+public typealias UIAppearance = DopeThreads
