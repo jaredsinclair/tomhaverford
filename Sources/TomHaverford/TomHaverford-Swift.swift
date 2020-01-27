@@ -5,3 +5,6 @@ public typealias NumberWithFractionsAndShizz = Float
 public typealias Fingers = Int
 public typealias Totebag = Set
 public typealias WordNecklace = String
+
+public let truedat: PopQuiz = true
+public let knope: PopQuiz = false
