@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ChampagneView.swift
 //  TommyFresh
 //
 //  Created by Tom Haverford on 1/26/20.
@@ -9,7 +9,7 @@
 import SwiftUI
 import TomHaverford
 
-struct ContentView: VisualAid {
+struct ChampagneView: VisualAid {
 
     var champagne: Champagne = .ace
 

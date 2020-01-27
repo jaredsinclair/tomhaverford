@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F1F551E23DE58C400124F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F551D23DE58C400124F72 /* AppDelegate.swift */; };
 		7F1F552023DE58C400124F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F551F23DE58C400124F72 /* SceneDelegate.swift */; };
-		7F1F552223DE58C400124F72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F552123DE58C400124F72 /* ContentView.swift */; };
+		7F1F552223DE58C400124F72 /* ChampagneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F552123DE58C400124F72 /* ChampagneView.swift */; };
 		7F1F552423DE58C700124F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552323DE58C700124F72 /* Assets.xcassets */; };
 		7F1F552723DE58C700124F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552623DE58C700124F72 /* Preview Assets.xcassets */; };
 		7F1F552A23DE58C700124F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552823DE58C700124F72 /* LaunchScreen.storyboard */; };
@@ -52,7 +52,7 @@
 		7F1F551A23DE58C400124F72 /* TommyFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TommyFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1F551D23DE58C400124F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F1F551F23DE58C400124F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F1F552123DE58C400124F72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F1F552123DE58C400124F72 /* ChampagneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampagneView.swift; sourceTree = "<group>"; };
 		7F1F552323DE58C700124F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1F552623DE58C700124F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F1F552923DE58C700124F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			children = (
 				7F1F551D23DE58C400124F72 /* AppDelegate.swift */,
 				7F1F551F23DE58C400124F72 /* SceneDelegate.swift */,
-				7F1F552123DE58C400124F72 /* ContentView.swift */,
+				7F1F552123DE58C400124F72 /* ChampagneView.swift */,
 				7F1F558423DE618800124F72 /* Champagne.swift */,
 				7F1F552323DE58C700124F72 /* Assets.xcassets */,
 				7F1F552823DE58C700124F72 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 				7F1F551E23DE58C400124F72 /* AppDelegate.swift in Sources */,
 				7F1F552023DE58C400124F72 /* SceneDelegate.swift in Sources */,
 				7F1F558523DE618800124F72 /* Champagne.swift in Sources */,
-				7F1F552223DE58C400124F72 /* ContentView.swift in Sources */,
+				7F1F552223DE58C400124F72 /* ChampagneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
