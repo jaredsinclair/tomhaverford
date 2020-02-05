@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1F551E23DE58C400124F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F551D23DE58C400124F72 /* AppDelegate.swift */; };
+		7F1F552023DE58C400124F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F551F23DE58C400124F72 /* SceneDelegate.swift */; };
+		7F1F552223DE58C400124F72 /* ChampagneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F552123DE58C400124F72 /* ChampagneView.swift */; };
+		7F1F552423DE58C700124F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552323DE58C700124F72 /* Assets.xcassets */; };
+		7F1F552723DE58C700124F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552623DE58C700124F72 /* Preview Assets.xcassets */; };
+		7F1F552A23DE58C700124F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F552823DE58C700124F72 /* LaunchScreen.storyboard */; };
+		7F1F553A23DE590400124F72 /* TomHaverford.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1F553823DE590400124F72 /* TomHaverford.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1F553D23DE590400124F72 /* TomHaverford.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1F553623DE590400124F72 /* TomHaverford.framework */; };
+		7F1F553E23DE590400124F72 /* TomHaverford.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1F553623DE590400124F72 /* TomHaverford.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F1F556E23DE592500124F72 /* TomHaverford-Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F554A23DE592400124F72 /* TomHaverford-Foundation.swift */; };
+		7F1F556F23DE592500124F72 /* TomHaverford-SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F554B23DE592400124F72 /* TomHaverford-SwiftUI.swift */; };
+		7F1F558023DE592500124F72 /* TomHaverford-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F556523DE592500124F72 /* TomHaverford-Swift.swift */; };
+		7F1F558123DE592500124F72 /* TomHaverford-UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */; };
+		7F1F558323DE592500124F72 /* TomHaverford-AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F556823DE592500124F72 /* TomHaverford-AVFoundation.swift */; };
+		7F1F558523DE618800124F72 /* Champagne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F558423DE618800124F72 /* Champagne.swift */; };
+		7F84DA2E23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F1F553B23DE590400124F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F1F551223DE58C400124F72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1F553523DE590400124F72;
+			remoteInfo = TomHaverford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F1F554223DE590400124F72 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F1F553E23DE590400124F72 /* TomHaverford.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F1F551A23DE58C400124F72 /* TommyFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TommyFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1F551D23DE58C400124F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F1F551F23DE58C400124F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F1F552123DE58C400124F72 /* ChampagneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampagneView.swift; sourceTree = "<group>"; };
+		7F1F552323DE58C700124F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1F552623DE58C700124F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F1F552923DE58C700124F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1F552B23DE58C700124F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1F553623DE590400124F72 /* TomHaverford.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TomHaverford.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1F553823DE590400124F72 /* TomHaverford.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TomHaverford.h; sourceTree = "<group>"; };
+		7F1F553923DE590400124F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1F554A23DE592400124F72 /* TomHaverford-Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-Foundation.swift"; path = "../../Sources/TomHaverford/TomHaverford-Foundation.swift"; sourceTree = "<group>"; };
+		7F1F554B23DE592400124F72 /* TomHaverford-SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-SwiftUI.swift"; path = "../../Sources/TomHaverford/TomHaverford-SwiftUI.swift"; sourceTree = "<group>"; };
+		7F1F556523DE592500124F72 /* TomHaverford-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-Swift.swift"; path = "../../Sources/TomHaverford/TomHaverford-Swift.swift"; sourceTree = "<group>"; };
+		7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-UIKit.swift"; path = "../../Sources/TomHaverford/TomHaverford-UIKit.swift"; sourceTree = "<group>"; };
+		7F1F556823DE592500124F72 /* TomHaverford-AVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-AVFoundation.swift"; path = "../../Sources/TomHaverford/TomHaverford-AVFoundation.swift"; sourceTree = "<group>"; };
+		7F1F558423DE618800124F72 /* Champagne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champagne.swift; sourceTree = "<group>"; };
+		7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TomHaverford-PropertyRapper.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1F551723DE58C400124F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F553D23DE590400124F72 /* TomHaverford.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1F553323DE590400124F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1F551123DE58C400124F72 = {
+			isa = PBXGroup;
+			children = (
+				7F1F551C23DE58C400124F72 /* TommyFresh */,
+				7F1F553723DE590400124F72 /* TomHaverford */,
+				7F1F551B23DE58C400124F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1F551B23DE58C400124F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F551A23DE58C400124F72 /* TommyFresh.app */,
+				7F1F553623DE590400124F72 /* TomHaverford.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1F551C23DE58C400124F72 /* TommyFresh */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F551D23DE58C400124F72 /* AppDelegate.swift */,
+				7F1F551F23DE58C400124F72 /* SceneDelegate.swift */,
+				7F1F552123DE58C400124F72 /* ChampagneView.swift */,
+				7F1F558423DE618800124F72 /* Champagne.swift */,
+				7F1F552323DE58C700124F72 /* Assets.xcassets */,
+				7F1F552823DE58C700124F72 /* LaunchScreen.storyboard */,
+				7F1F552B23DE58C700124F72 /* Info.plist */,
+				7F1F552523DE58C700124F72 /* Preview Content */,
+			);
+			path = TommyFresh;
+			sourceTree = "<group>";
+		};
+		7F1F552523DE58C700124F72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F552623DE58C700124F72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F1F553723DE590400124F72 /* TomHaverford */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F553823DE590400124F72 /* TomHaverford.h */,
+				7F1F556823DE592500124F72 /* TomHaverford-AVFoundation.swift */,
+				7F1F554A23DE592400124F72 /* TomHaverford-Foundation.swift */,
+				7F1F556523DE592500124F72 /* TomHaverford-Swift.swift */,
+				7F1F554B23DE592400124F72 /* TomHaverford-SwiftUI.swift */,
+				7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */,
+				7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */,
+				7F1F553923DE590400124F72 /* Info.plist */,
+			);
+			path = TomHaverford;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F1F553123DE590400124F72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F553A23DE590400124F72 /* TomHaverford.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F1F551923DE58C400124F72 /* TommyFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1F552E23DE58C700124F72 /* Build configuration list for PBXNativeTarget "TommyFresh" */;
+			buildPhases = (
+				7F1F551623DE58C400124F72 /* Sources */,
+				7F1F551723DE58C400124F72 /* Frameworks */,
+				7F1F551823DE58C400124F72 /* Resources */,
+				7F1F554223DE590400124F72 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1F553C23DE590400124F72 /* PBXTargetDependency */,
+			);
+			name = TommyFresh;
+			productName = TommyFresh;
+			productReference = 7F1F551A23DE58C400124F72 /* TommyFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F1F553523DE590400124F72 /* TomHaverford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1F553F23DE590400124F72 /* Build configuration list for PBXNativeTarget "TomHaverford" */;
+			buildPhases = (
+				7F1F553123DE590400124F72 /* Headers */,
+				7F1F553223DE590400124F72 /* Sources */,
+				7F1F553323DE590400124F72 /* Frameworks */,
+				7F1F553423DE590400124F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomHaverford;
+			productName = TomHaverford;
+			productReference = 7F1F553623DE590400124F72 /* TomHaverford.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1F551223DE58C400124F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Entertainment 7wenty LLC";
+				TargetAttributes = {
+					7F1F551923DE58C400124F72 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7F1F553523DE590400124F72 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 7F1F551523DE58C400124F72 /* Build configuration list for PBXProject "TommyFresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1F551123DE58C400124F72;
+			productRefGroup = 7F1F551B23DE58C400124F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1F551923DE58C400124F72 /* TommyFresh */,
+				7F1F553523DE590400124F72 /* TomHaverford */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1F551823DE58C400124F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F552A23DE58C700124F72 /* LaunchScreen.storyboard in Resources */,
+				7F1F552723DE58C700124F72 /* Preview Assets.xcassets in Resources */,
+				7F1F552423DE58C700124F72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1F553423DE590400124F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1F551623DE58C400124F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F551E23DE58C400124F72 /* AppDelegate.swift in Sources */,
+				7F1F552023DE58C400124F72 /* SceneDelegate.swift in Sources */,
+				7F1F558523DE618800124F72 /* Champagne.swift in Sources */,
+				7F1F552223DE58C400124F72 /* ChampagneView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1F553223DE590400124F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1F558323DE592500124F72 /* TomHaverford-AVFoundation.swift in Sources */,
+				7F84DA2E23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift in Sources */,
+				7F1F558023DE592500124F72 /* TomHaverford-Swift.swift in Sources */,
+				7F1F556F23DE592500124F72 /* TomHaverford-SwiftUI.swift in Sources */,
+				7F1F558123DE592500124F72 /* TomHaverford-UIKit.swift in Sources */,
+				7F1F556E23DE592500124F72 /* TomHaverford-Foundation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F1F553C23DE590400124F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1F553523DE590400124F72 /* TomHaverford */;
+			targetProxy = 7F1F553B23DE590400124F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F1F552823DE58C700124F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1F552923DE58C700124F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1F552C23DE58C700124F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F1F552D23DE58C700124F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1F552F23DE58C700124F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TommyFresh/Preview Content\"";
+				DEVELOPMENT_TEAM = 442RNUGV2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TommyFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceboy.TommyFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F1F553023DE58C700124F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TommyFresh/Preview Content\"";
+				DEVELOPMENT_TEAM = 442RNUGV2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TommyFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceboy.TommyFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F1F554023DE590400124F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 442RNUGV2T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TomHaverford/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceboy.TomHaverford;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F1F554123DE590400124F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 442RNUGV2T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TomHaverford/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceboy.TomHaverford;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1F551523DE58C400124F72 /* Build configuration list for PBXProject "TommyFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1F552C23DE58C700124F72 /* Debug */,
+				7F1F552D23DE58C700124F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1F552E23DE58C700124F72 /* Build configuration list for PBXNativeTarget "TommyFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1F552F23DE58C700124F72 /* Debug */,
+				7F1F553023DE58C700124F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1F553F23DE590400124F72 /* Build configuration list for PBXNativeTarget "TomHaverford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1F554023DE590400124F72 /* Debug */,
+				7F1F554123DE590400124F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F1F551223DE58C400124F72 /* Project object */;
+}
