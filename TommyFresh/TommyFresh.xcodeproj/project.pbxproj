@@ -22,6 +22,7 @@
 		7F1F558123DE592500124F72 /* TomHaverford-UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */; };
 		7F1F558323DE592500124F72 /* TomHaverford-AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F556823DE592500124F72 /* TomHaverford-AVFoundation.swift */; };
 		7F1F558523DE618800124F72 /* Champagne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F558423DE618800124F72 /* Champagne.swift */; };
+		7F84DA2E23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-UIKit.swift"; path = "../../Sources/TomHaverford/TomHaverford-UIKit.swift"; sourceTree = "<group>"; };
 		7F1F556823DE592500124F72 /* TomHaverford-AVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TomHaverford-AVFoundation.swift"; path = "../../Sources/TomHaverford/TomHaverford-AVFoundation.swift"; sourceTree = "<group>"; };
 		7F1F558423DE618800124F72 /* Champagne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champagne.swift; sourceTree = "<group>"; };
+		7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TomHaverford-PropertyRapper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				7F1F556523DE592500124F72 /* TomHaverford-Swift.swift */,
 				7F1F554B23DE592400124F72 /* TomHaverford-SwiftUI.swift */,
 				7F1F556623DE592500124F72 /* TomHaverford-UIKit.swift */,
+				7F84DA2D23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift */,
 				7F1F553923DE590400124F72 /* Info.plist */,
 			);
 			path = TomHaverford;
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1F558323DE592500124F72 /* TomHaverford-AVFoundation.swift in Sources */,
+				7F84DA2E23EA6382004EA7BF /* TomHaverford-PropertyRapper.swift in Sources */,
 				7F1F558023DE592500124F72 /* TomHaverford-Swift.swift in Sources */,
 				7F1F556F23DE592500124F72 /* TomHaverford-SwiftUI.swift in Sources */,
 				7F1F558123DE592500124F72 /* TomHaverford-UIKit.swift in Sources */,

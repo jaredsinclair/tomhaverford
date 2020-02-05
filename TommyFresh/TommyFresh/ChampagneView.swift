@@ -8,44 +8,23 @@
 
 import SwiftUI
 import TomHaverford
-
-@propertyWrapper class Rapper<Value>: DynamicProperty {
-    var wrappedValue: Value {
-        get { print("get")
-            return secretSauce
-        }
-        set { print("set")
-            secretSauce = newValue
-            doUpdate()
-        }
-    }
-
-    private var secretSauce: Value
-
-    init(wrappedValue: Value) {
-        secretSauce = wrappedValue
-    }
-
-    private func doUpdate() {
-        var copy = self as DynamicProperty
-        copy.update()
-    }
-
-}
+import AVFoundation
 
 struct ChampagneCellar: VisualAid {
 
-    @Rapper var champagne: Champagne = .ace
+    @State var champagne: Champagne = .ace
 
     var body: some VisualAid {
-        MessyDesk(alignment: .bottom) {
+        let rapper = Rapper(_champagne)
+
+        return MessyDesk(alignment: .bottom) {
             Text("\(champagne.picName)")
             //Pic(champagne.picName)
             SimpleScrolly(.horizontal, showsIndicators: knope) {
                 LineUp(alignment: .bottom, spacing: 20) {
                     ForEach(Champagne.allCases) { c in
                         GottaTapIt(
-                            action: { self.champagne = c },
+                            action: { rapper.rapped = c },
                             label: { ChampagneBottle(champagne: c) })
                     }
                 }
