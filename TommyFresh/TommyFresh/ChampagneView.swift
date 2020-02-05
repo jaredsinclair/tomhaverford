@@ -17,6 +17,8 @@ struct ChampagneCellar: VisualAid {
     var body: some VisualAid {
         MessyDesk(alignment: .bottom) {
             Text("\(champagne.picName)")
+                .font(.largeTitle)
+                .transformEffect(.init(translationX: 0, y: -150))
             //Pic(champagne.picName)
             SimpleScrolly(.horizontal, showsIndicators: knope) {
                 LineUp(alignment: .bottom, spacing: 20) {

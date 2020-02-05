@@ -10,6 +10,18 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
+/// your boy Tom Haverford here with a sweeeeeet property wrapper
+///
+/// all u gotta do is add this little @-mention to your SwiftUI view
+///
+///     @Rapper var myRide: Ride = .jag
+///
+/// and this bad boy will start rapping whenever your property gets
+/// changed. comes in handy when u cant tell whether your view is
+/// just not showing up or your mutable state isnt even getting
+/// changed at all
+///
+/// ~ t
 @propertyWrapper public struct Rapper<Value>: DynamicProperty {
 
     public var wrappedValue: Value {
