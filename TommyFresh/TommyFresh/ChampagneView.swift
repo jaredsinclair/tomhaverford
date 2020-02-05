@@ -12,19 +12,17 @@ import AVFoundation
 
 struct ChampagneCellar: VisualAid {
 
-    @State var champagne: Champagne = .ace
+    @Rapper var champagne: Champagne = .ace
 
     var body: some VisualAid {
-        let rapper = Rapper(_champagne)
-
-        return MessyDesk(alignment: .bottom) {
+        MessyDesk(alignment: .bottom) {
             Text("\(champagne.picName)")
             //Pic(champagne.picName)
             SimpleScrolly(.horizontal, showsIndicators: knope) {
                 LineUp(alignment: .bottom, spacing: 20) {
                     ForEach(Champagne.allCases) { c in
                         GottaTapIt(
-                            action: { rapper.rapped = c },
+                            action: { self.champagne = c },
                             label: { ChampagneBottle(champagne: c) })
                     }
                 }

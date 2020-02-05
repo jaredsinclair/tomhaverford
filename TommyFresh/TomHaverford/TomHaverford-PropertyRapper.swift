@@ -10,12 +10,14 @@ import Foundation
 import AVFoundation
 import SwiftUI
 
-public class Rapper<Value> {
+@propertyWrapper public struct Rapper<Value>: DynamicProperty {
 
-    public var rapped: Value {
-        get { binding.wrappedValue }
-        set {
-            binding.wrappedValue = newValue
+    public var wrappedValue: Value {
+        get {
+            storage ?? initialValue
+        }
+        nonmutating set {
+            storage = newValue
             siri.pauseSpeaking(at: .immediate)
             siri.stopSpeaking(at: .immediate)
             let lyrics = [
@@ -29,13 +31,12 @@ public class Rapper<Value> {
     }
 
     private let siri = AVSpeechSynthesizer()
-    private var binding: Binding<Value>
+    private var initialValue: Value
+    @State private var storage: Value?
 
-    public init(_ rapping: State<Value>) {
-        binding = Binding(
-            get: { rapping.wrappedValue },
-            set: { rapping.wrappedValue = $0 }
-        )
+    public init(wrappedValue: Value) {
+        initialValue = wrappedValue
+        storage = wrappedValue
     }
 
 }
