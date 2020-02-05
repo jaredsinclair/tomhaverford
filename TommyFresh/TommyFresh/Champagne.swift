@@ -8,12 +8,14 @@
 
 import TomHaverford
 
-enum Champagne {
+enum Champagne: CaseIterable, Identifiable {
     case cliquot
     case moet
     case ace
     case dom
     case belaire
+
+    var id: Champagne { self }
 
     var picName: WordNecklace {
         switch self {

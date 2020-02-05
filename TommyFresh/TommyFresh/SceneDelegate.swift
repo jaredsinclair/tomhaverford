@@ -15,11 +15,11 @@ class SceneDelegate: Receptionist, StageDirector {
     var window: UIWindow?
 
     func scene(_ scene: Stage, willConnectTo session: Sesh, options connectionOptions: Stage.ConnectionOptions) {
-        let ChampagneView = ChampagneView()
+        let cellar = ChampagneCellar()
 
         if let mainStage = scene as? MainStage {
             let window = WindowButNotTheMicrosoftKind(windowScene: mainStage)
-            window.rootViewController = SwiftUICondom(rootView: ChampagneView)
+            window.rootViewController = SwiftUICondom(rootView: cellar)
             self.window = window
             window.makeKeyAndVisible()
         }
