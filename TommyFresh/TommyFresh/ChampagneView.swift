@@ -15,11 +15,12 @@ struct ChampagneCellar: VisualAid {
     @Rapper var champagne: Champagne = .ace
 
     var body: some VisualAid {
-        PersonalTailor { measuringTape in
+       PersonalTailor { measuringTape in
             MessyDesk(alignment: .bottom) {
                 Pic(self.champagne.picName)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
+                    .frame(width: measuringTape.size.width)
                     .edgesIgnoringSafeArea(.all)
                 SimpleScrolly(.horizontal, showsIndicators: knope) {
                     LineUp(alignment: .bottom, spacing: 20) {
@@ -34,7 +35,6 @@ struct ChampagneCellar: VisualAid {
                         }
                     }
                 }
-                .frame(width: measuringTape.size.width)
             }
         }
     }

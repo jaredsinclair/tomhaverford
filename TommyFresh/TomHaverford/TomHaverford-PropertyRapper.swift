@@ -30,13 +30,16 @@ import SwiftUI
         }
         nonmutating set {
             storage = newValue
-            siri.pauseSpeaking(at: .immediate)
             siri.stopSpeaking(at: .immediate)
             let lyrics = [
-                "Hey dawg your property changed to \(newValue).",
-                "Yo yo your property changed to \(newValue).",
-                "Listen up sheeple your property changed to \(newValue).",
-                "Guess what your property changed to \(newValue)."
+                "hey dawg your property changed to \(newValue).",
+                "yo yo your property is now \(newValue).",
+                "listen up sheeple your property changed it's \(newValue) now.",
+                "nice work changing your property to \(newValue).",
+                "bravo dude that value changed to \(newValue).",
+                "amaze balls you just changed this to \(newValue).",
+                "member that property? well now it's \(newValue).",
+                "guess what your property changed to \(newValue)."
             ]
             siri.speak(.init(string: lyrics.randomElement()!))
         }
