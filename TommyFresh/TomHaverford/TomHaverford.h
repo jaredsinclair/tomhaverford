@@ -2,7 +2,7 @@
 //  TomHaverford.h
 //  TomHaverford
 //
-//  Created by Jared Sinclair on 1/26/20.
+//  Created by Tom Haverford on 1/26/20.
 //  Copyright © 2020 Entertainment 7wenty LLC. All rights reserved.
 //
 

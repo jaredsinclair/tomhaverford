@@ -2,7 +2,7 @@
 //  TomHaverford-PropertyRapper.swift
 //  TomHaverford
 //
-//  Created by Jared Sinclair on 2/4/20.
+//  Created by Tom Haverford on 2/4/20.
 //  Copyright © 2020 Entertainment 7wenty LLC. All rights reserved.
 //
 
