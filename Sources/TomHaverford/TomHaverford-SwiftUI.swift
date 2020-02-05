@@ -10,3 +10,4 @@ public typealias SwiftUICondom = UIHostingController
 public typealias VisualAid = View
 public typealias MuppetMan = VStack
 public typealias MessyDesk = ZStack
+public typealias PersonalTailor = GeometryReader

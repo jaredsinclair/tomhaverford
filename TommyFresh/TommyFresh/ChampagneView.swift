@@ -15,19 +15,26 @@ struct ChampagneCellar: VisualAid {
     @Rapper var champagne: Champagne = .ace
 
     var body: some VisualAid {
-        MessyDesk(alignment: .bottom) {
-            Text("\(champagne.picName)")
-                .font(.largeTitle)
-                .transformEffect(.init(translationX: 0, y: -150))
-            //Pic(champagne.picName)
-            SimpleScrolly(.horizontal, showsIndicators: knope) {
-                LineUp(alignment: .bottom, spacing: 20) {
-                    ForEach(Champagne.allCases) { c in
-                        GottaTapIt(
-                            action: { self.champagne = c },
-                            label: { ChampagneBottle(champagne: c) })
+        PersonalTailor { measuringTape in
+            MessyDesk(alignment: .bottom) {
+                Pic(self.champagne.picName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(.all)
+                SimpleScrolly(.horizontal, showsIndicators: knope) {
+                    LineUp(alignment: .bottom, spacing: 20) {
+                        ForEach(Champagne.allCases) { c in
+                            GottaTapIt(
+                                action: { self.champagne = c },
+                                label: {
+                                    ChampagneBottle(champagne: c, isMyChoice: self.champagne == c)
+                                        .padding(.leading, c.isFirst ? 20 : 0)
+                                        .padding(.trailing, c.isLast ? 20 : 0)
+                            })
+                        }
                     }
                 }
+                .frame(width: measuringTape.size.width)
             }
         }
     }
@@ -36,13 +43,17 @@ struct ChampagneCellar: VisualAid {
 
 struct ChampagneBottle: VisualAid {
     let champagne: Champagne
+    let isMyChoice: Bool
 
     var body: some VisualAid {
         Text("\(champagne.picName)")
-            //.aspectRatio(1, contentMode: .fit)
-            .background(Color.blue)
             .foregroundColor(.white)
-            .padding(10)
-            .cornerRadius(10)
+            .padding(20)
+            .background(
+                Capsule()
+                .foregroundColor(isMyChoice ? .blue : .black)
+                .padding(3)
+                .background(Capsule().foregroundColor(.white))
+            )
     }
 }

@@ -9,11 +9,11 @@
 import TomHaverford
 
 enum Champagne: CaseIterable, Identifiable {
-    case cliquot
-    case moet
     case ace
     case dom
+    case moet
     case belaire
+    case cliquot
 
     var id: Champagne { self }
 
@@ -26,4 +26,16 @@ enum Champagne: CaseIterable, Identifiable {
         case .belaire: return "belaire"
         }
     }
+}
+
+extension CaseIterable where Self : Equatable {
+
+    var isFirst: Bool {
+        type(of: self).allCases.first == self
+    }
+
+    var isLast: Bool {
+        Array(type(of: self).allCases).last == self
+    }
+
 }
